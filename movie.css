@@ -1,0 +1,19 @@
+.BODY{
+    background-color: white;
+}
+.carousel-item{
+    height: 23rem;
+    background-color: gray;
+    color: honeydew;
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+.block{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    padding-bottom: 50px;
+}

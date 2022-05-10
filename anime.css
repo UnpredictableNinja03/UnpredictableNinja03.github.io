@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:rgba(0,0,0,.7);
+}
+.navbar-brand{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+.navbar-nav{
+    padding-left: 60px;
+}
+.navbar-item{
+    margin-top: 5px;
+}
+.nav-link{
+    width: 120px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.nav-link:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+.foa{
+    font-size: 18px;
+    color:white;
+}
+
+
+
+.cover{
+    position: relative;
+}
+.bg-img{
+    max-width:100%;
+    height: auto;
+    filter: blur(0px);
+}
+.bg-text{
+    color: white;
+    position: absolute;
+    left:50%;
+    top:60%;
+    border: solid;
+    transform: translate(-50%,-40%);
+    width: 99%;
+    height:auto;
+    text-align: center;
+    background-color:rgba(0,0,0,.5);
+    border-radius: 10px;
+    
+}
+.bg-text h1{
+    padding: 10px;
+    font-size: 6vw;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.life{
+    color: red;
+}
+/*footer*/
+.footer{
+    height: auto;
+    width: 100%;
+    font-family: "open sans";
+    padding-top: 20px;
+    background-color: white;
+    transform: translate(0, 60%);
+    border-style: solid;
+    border-radius: 1%;
+    border-width: 0.3rem;
+    border-color: black;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    right:5%;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration:none;
+    color: black;
+}
+/*Footer icon changes after hover*/
+.facebook:hover{
+    color: blue;
+}
+.instagram:hover{
+    color: crimson;
+}
+.mail:hover{
+    color: red;
+}
+.github:hover{
+    color: rgba(0,0,0,.7);
+}
+.telegram:hover{
+    color: dodgerblue;
+}
+.linkedin:hover{
+    color: cornflowerblue;
+}
+/*done*/
+.socials a i{
+    font-size: 1.8rem;
+}
+.footer-bottom{
+    text-align: center;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    right: 4%;
+}
+.bottom-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    right: 4%;
+    width: 100%;
+}
+.bottom-name:hover{
+    color: royalblue;
+}
+
+
